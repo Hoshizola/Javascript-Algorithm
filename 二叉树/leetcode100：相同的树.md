@@ -16,7 +16,6 @@
 
 输入：p = [1,2,1], q = [1,1,2]
 输出：false
-链接：https://leetcode-cn.com/problems/same-tree
 
 ##### 方法一：深度优先搜索
 
