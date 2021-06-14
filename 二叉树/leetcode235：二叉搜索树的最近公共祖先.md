@@ -26,7 +26,7 @@ var lowestCommonAncestor = function(root, p, q) {
 
 #### 方法二：迭代
 
-思路和方法一样，一般来说能用递归的地方就能用迭代。
+思路与递归的方法一样，一般来说能用递归的地方就能用迭代。
 
 ```javascript
 var lowestCommonAncestor = function(root, p, q) {
