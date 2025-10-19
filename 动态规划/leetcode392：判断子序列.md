@@ -24,7 +24,7 @@ var isSubsequence = function(s, t) {
   let sindex = 0, tindex = 0
   let slen = s.length, tlen = t.length
   while(sindex < slen && tindex < tlen) {
-    if(s[sindex] === tindex[j]) {
+    if(s[sindex] === t[tindex]) {
       sindex++
     }
     tindex++

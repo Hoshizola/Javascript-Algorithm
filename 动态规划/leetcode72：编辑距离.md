@@ -29,7 +29,7 @@ exention -> exection (将 'n' 替换为 'c')
 exection -> execution (插入 'u')
 
 ##### 思路
-dp[i][j] 代表 word1 到 i 位置转换成 word2 到 j 位置需要最少步数
+`dp[i][j] `代表 word1 到 i 位置转换成 word2 到 j 位置需要最少步数
 
 所以，
 

@@ -21,6 +21,7 @@ var longestPalindrome = function(s) {
   let len = s.length
   let dp = new Array(len).fill(false).map(item => new Array(len).fill(false))
   let result = ''
+  // l表示遍历的子串的长度
   for(let l = 0; l < len; l++) {
     for(let i = 0; i + l < len; i++){
       let j = i + l
@@ -39,4 +40,3 @@ var longestPalindrome = function(s) {
   return result
 }
 ```
-
